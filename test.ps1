@@ -1,5 +1,5 @@
 $SourceDirectory = "C:\Users\ManojKumarBalaraju\Music\sample-maven"
-$TargetDirectory = "https://github.com/ma1456/JFrog.git"
+$TargetDirectory = "https://github.com/ma1456/sample-maven.git"
 $Test =Get-date
 
 if (Test-Path $SourceDirectory) {
