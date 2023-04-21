@@ -13,7 +13,7 @@ git config  user.email "manojkumar.balaraju@gmail.com"
 git config user.name "ma1456"
 $authHeader = "Authorization: token $pat"
  } 
-Copy-Item "C:\Users\ManojKumarBalaraju\Music\JFrog" -Destination "$SourceDirectory"
+Copy-Item "C:\Users\ManojKumarBalaraju\Music\sample-maven" -Destination "$SourceDirectory"
 cd $SourceDirectory
 git pull
 git add . 
